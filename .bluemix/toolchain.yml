@@ -168,6 +168,6 @@ form:
       ui-repo_name: 'ui-{{toolchain.name}}'
       ui-repo_url: >
         $env.template.info.hosted_region !== "" ? 'https://{{template.info.hosted_region}}.git.cloud.ibm.com/open-toolchain/Microservices_UI':
-        'https://github.com/open-toolchain/Microservices_UI'
+        'https://github.com/open-toolchain/micro_ui_test'
     schema:
       $ref: repos.json
